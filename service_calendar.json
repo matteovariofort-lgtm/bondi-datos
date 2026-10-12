@@ -1,0 +1,152 @@
+{
+  "esquema": 1,
+  "version": 2026100202,
+  "notas": "Calendario de servicio de Bondi (SPEC §5.1). Se empaqueta en la app y se descarga una vez por semana desde este repo: gana el de 'version' más alta que sea válido. 'horario' = tipo de horario de los datos de la IM que rige ese día: habil, sabado o domingo. Fechas recurrentes 'MM-DD'; puntuales 'AAAA-MM-DD'. Los cortes anulan los viajes que SALEN entre 'desde' y 'hasta' (hora de Montevideo).",
+  "feriados": [
+    {
+      "clave": "anio_nuevo",
+      "nombre": { "es": "Año Nuevo", "en": "New Year's Day" },
+      "tipo": "no_laborable",
+      "fecha": "01-01",
+      "horario": "domingo"
+    },
+    {
+      "clave": "reyes",
+      "nombre": { "es": "Día de Reyes", "en": "Epiphany" },
+      "tipo": "laborable",
+      "fecha": "01-06",
+      "horario": "sabado",
+      "fuente": "La IM anuncia 'horario especial' sin decir cuál; se asume sábado como en 18/5 y 19/6"
+    },
+    {
+      "clave": "carnaval",
+      "nombre": { "es": "Carnaval", "en": "Carnival" },
+      "tipo": "laborable",
+      "desdePascua": -48,
+      "dias": 2,
+      "horario": "domingo",
+      "fuente": "IM, carnaval 2026: frecuencia un poco menor que la de un domingo"
+    },
+    {
+      "clave": "turismo",
+      "nombre": { "es": "Semana de Turismo", "en": "Tourism Week" },
+      "tipo": "laborable",
+      "desdePascua": -6,
+      "dias": 7,
+      "horario": "sabado",
+      "horarioPorDia": { "jueves": "domingo", "viernes": "domingo", "sabado": "domingo", "domingo": "domingo" },
+      "fuente": "Empresas e IM, Turismo 2025: lunes a miércoles como sábado (70 % de la flota), de jueves a domingo como domingo"
+    },
+    {
+      "clave": "desembarco",
+      "nombre": { "es": "Desembarco de los 33 Orientales", "en": "Landing of the 33 Patriots" },
+      "tipo": "laborable",
+      "fecha": "04-19",
+      "trasladable": true,
+      "horario": "sabado",
+      "fuente": "Sin comunicado específico; se asume sábado como en 18/5"
+    },
+    {
+      "clave": "trabajadores",
+      "nombre": { "es": "Día de los Trabajadores", "en": "Workers' Day" },
+      "tipo": "no_laborable",
+      "fecha": "05-01",
+      "horario": "domingo"
+    },
+    {
+      "clave": "las_piedras",
+      "nombre": { "es": "Batalla de Las Piedras", "en": "Battle of Las Piedras" },
+      "tipo": "laborable",
+      "fecha": "05-18",
+      "trasladable": true,
+      "horario": "sabado",
+      "fuente": "IM, 18/5/2026: el transporte colectivo funciona con frecuencia de sábado"
+    },
+    {
+      "clave": "artigas",
+      "nombre": { "es": "Natalicio de Artigas y Día del Nunca Más", "en": "Birth of Artigas and Never Again Day" },
+      "tipo": "laborable",
+      "fecha": "06-19",
+      "horario": "sabado",
+      "fuente": "Ómnibus urbanos con horario de sábado con refuerzos"
+    },
+    {
+      "clave": "jura",
+      "nombre": { "es": "Jura de la Constitución", "en": "Constitution Day" },
+      "tipo": "no_laborable",
+      "fecha": "07-18",
+      "horario": "domingo"
+    },
+    {
+      "clave": "independencia",
+      "nombre": { "es": "Declaratoria de la Independencia", "en": "Independence Day" },
+      "tipo": "no_laborable",
+      "fecha": "08-25",
+      "horario": "domingo"
+    },
+    {
+      "clave": "raza",
+      "nombre": { "es": "Día de la Raza", "en": "Columbus Day" },
+      "tipo": "laborable",
+      "fecha": "10-12",
+      "trasladable": true,
+      "horario": "domingo",
+      "fuente": "IM: ómnibus urbanos con horario 'similar al de los domingos'"
+    },
+    {
+      "clave": "difuntos",
+      "nombre": { "es": "Día de los Difuntos", "en": "All Souls' Day" },
+      "tipo": "laborable",
+      "fecha": "11-02",
+      "horario": "sabado",
+      "fuente": "La IM anuncia 'horarios especiales'; los interdepartamentales confirman frecuencia de sábado"
+    },
+    {
+      "clave": "navidad",
+      "nombre": { "es": "Navidad", "en": "Christmas Day" },
+      "tipo": "no_laborable",
+      "fecha": "12-25",
+      "horario": "domingo",
+      "fuente": "IM: frecuencia de alrededor del 60 % de un domingo"
+    }
+  ],
+  "fechasEspeciales": [],
+  "cortes": [
+    {
+      "clave": "nochebuena",
+      "nombre": { "es": "Nochebuena: no hay salidas después de las 19:30", "en": "Christmas Eve: no departures after 7:30 pm" },
+      "desde": "12-24T19:30",
+      "hasta": "12-25T04:00",
+      "fuente": "IM, 24/12/2025: luego de las 19:30 no hay salidas desde las terminales"
+    },
+    {
+      "clave": "fin_de_anio",
+      "nombre": { "es": "Fin de año: no hay salidas desde las 19:30 del 31 hasta el 2 de enero", "en": "New Year: no departures from 7:30 pm on Dec 31 until Jan 2" },
+      "desde": "12-31T19:30",
+      "hasta": "01-02T04:00",
+      "fuente": "IM: el 1/1/2026 no hubo servicio; retoma con las primeras salidas del 2 de enero"
+    },
+    {
+      "clave": "trabajadores_come",
+      "nombre": { "es": "1.º de Mayo: no hay servicio", "en": "May 1: no bus service" },
+      "desde": "04-30T19:00",
+      "hasta": "05-02T04:00",
+      "empresas": [20],
+      "fuente": "UNOTT, 2026: últimas salidas del 30/4 a las 18:59 (COME), 19:59 (CUTCSA) y 20:29 (cooperativas)"
+    },
+    {
+      "clave": "trabajadores_cutcsa",
+      "nombre": { "es": "1.º de Mayo: no hay servicio", "en": "May 1: no bus service" },
+      "desde": "04-30T20:00",
+      "hasta": "05-02T04:00",
+      "empresas": [50]
+    },
+    {
+      "clave": "trabajadores_cooperativas",
+      "nombre": { "es": "1.º de Mayo: no hay servicio", "en": "May 1: no bus service" },
+      "desde": "04-30T20:30",
+      "hasta": "05-02T04:00",
+      "empresas": [10, 70]
+    }
+  ]
+}

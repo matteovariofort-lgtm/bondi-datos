@@ -1,0 +1,17 @@
+{
+  "esquema": 1,
+  "version": 2026101201,
+  "notas": "Configuración remota de Bondi (SPEC §12). Se empaqueta en la app y la publica fares-watch en el repo público de datos junto a las tarifas y el calendario: gana la de 'version' más alta que sea válida. 'funciones' apaga o enciende partes de la app sin recompilar (una clave que falta queda encendida); 'api' cambia los endpoints de la IM; 'datos' es de dónde se bajan detours.json, fares.json, service_calendar.json y esta misma configuración; 'aviso' es un mensaje general en español e inglés (null si no hay); 'versionMinima' es el versionCode más viejo que se puede seguir usando.",
+  "versionMinima": 1,
+  "aviso": null,
+  "funciones": {
+    "tiempoReal": true,
+    "desvios": true,
+    "desviosGps": true
+  },
+  "api": {
+    "base": "https://api.montevideo.gub.uy/api/transportepublico",
+    "token": "https://mvdapi-auth.montevideo.gub.uy/token"
+  },
+  "datos": "https://raw.githubusercontent.com/matteovariofort-lgtm/bondi-datos/main"
+}

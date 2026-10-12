@@ -1,0 +1,181 @@
+{
+  "esquema": 1,
+  "version": 2026100601,
+  "notas": "Tarifas del transporte urbano de Montevideo para Bondi (SPEC §3.8 y §6.5). Se empaqueta en la app y se descargará desde este repo como el calendario: gana el de 'version' más alta que sea válido. Precios en centésimos de peso. Cada versión rige desde 'vigenteDesde' (hora de Montevideo) y se elige por la hora de la primera subida del viaje. Boletos: unaHora (hasta 'tramos' urbanos sin diferenciales; el siguiente dentro de 'minutos' + 'tolerancia' desde la primera subida; en una zona de intercambio, un tramo más), dosHoras (tramos ilimitados con la última subida dentro de la ventana; cubre diferenciales solo si 'dosHorasConDiferencial'), comun (1 tramo urbano), diferencial (1 tramo en una línea D), zonal y centrico (1 tramo con subida y bajada dentro de la misma zona). 'sinConfirmar': boletos cuya regla no está confirmada por la IM; si el viaje los usa, el costo se muestra 'aprox.'. Verificado en docs/fase0.md §6.",
+  "reglas": {
+    "unaHora": {
+      "minutos": 60,
+      "tolerancia": 5,
+      "tramos": 2
+    },
+    "intercambio": {
+      "minutos": 120,
+      "tramos": 3,
+      "zonasCompletas": false
+    },
+    "dosHoras": {
+      "minutos": 120,
+      "tolerancia": 5
+    },
+    "diferenciales": [
+      "D1",
+      "D5",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ]
+  },
+  "zonas": {
+    "intercambio": [],
+    "centrico": [
+      {
+        "nombre": "Céntrico (rambla Portuaria, rambla Sur, Ejido, Soriano, Magallanes, Mercedes, Ejido y La Paz; esquinas de 'Cruces de calle', 40 m hacia afuera)",
+        "poligono": [
+          [
+            -34.898936,
+            -56.187266
+          ],
+          [
+            -34.899107,
+            -56.195982
+          ],
+          [
+            -34.902303,
+            -56.205411
+          ],
+          [
+            -34.906596,
+            -56.215585
+          ],
+          [
+            -34.910553,
+            -56.213931
+          ],
+          [
+            -34.910535,
+            -56.205127
+          ],
+          [
+            -34.912401,
+            -56.195304
+          ],
+          [
+            -34.915851,
+            -56.185519
+          ],
+          [
+            -34.907531,
+            -56.186241
+          ],
+          [
+            -34.906902,
+            -56.17812
+          ],
+          [
+            -34.901474,
+            -56.18013
+          ],
+          [
+            -34.903551,
+            -56.186664
+          ]
+        ],
+        "confirmado": false
+      }
+    ],
+    "zonal": []
+  },
+  "versiones": [
+    {
+      "vigenteDesde": "2026-01-05T00:00",
+      "fuente": "https://montevideo.gub.uy/tipo/area-tematica/sistema-de-transporte-metropolitano/tarifas-del-transporte-colectivo-urbano",
+      "precios": {
+        "tarjeta": {
+          "unaHora": 5200,
+          "dosHoras": 7800,
+          "dosHorasConDiferencial": true,
+          "zonal": 2700,
+          "centrico": 3800
+        },
+        "efectivo": {
+          "comun": 6400,
+          "diferencial": 9700,
+          "dosHoras": 9700,
+          "zonal": 3400,
+          "centrico": 4800,
+          "sinConfirmar": [
+            "dosHoras"
+          ]
+        },
+        "estudianteA": {
+          "unaHora": 2850,
+          "diferencial": 9700,
+          "sinConfirmar": [
+            "diferencial"
+          ]
+        },
+        "estudianteB": {
+          "unaHora": 3990,
+          "diferencial": 9700,
+          "sinConfirmar": [
+            "diferencial"
+          ]
+        },
+        "estudianteG": {
+          "unaHora": 0,
+          "diferencial": 9700,
+          "sinConfirmar": [
+            "diferencial"
+          ],
+          "soloMeses": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fueraDeMeses": "estudianteA",
+          "cupoGratisPorMes": 50
+        },
+        "jubiladoA": {
+          "unaHora": 1400,
+          "diferencial": 9700,
+          "sinConfirmar": [
+            "diferencial"
+          ]
+        },
+        "jubiladoB": {
+          "unaHora": 2300,
+          "diferencial": 9700,
+          "sinConfirmar": [
+            "diferencial"
+          ]
+        },
+        "prepagoNominado": {
+          "unaHora": 4680,
+          "diferencial": 9700,
+          "sinConfirmar": [
+            "unaHora",
+            "diferencial"
+          ]
+        },
+        "uruguaySocial": {
+          "unaHora": 3600,
+          "dosHoras": 5500,
+          "diferencial": 9700,
+          "zonal": 2100,
+          "centrico": 2500,
+          "sinConfirmar": [
+            "diferencial"
+          ]
+        }
+      }
+    }
+  ]
+}
