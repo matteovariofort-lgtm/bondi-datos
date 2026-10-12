@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "generatedAt": "2026-10-12T17:27:12",
+ "detours": [
+  {
+   "id": "wfs-2193",
+   "validity": {
+    "start": "2025-07-22T09:00:00",
+    "end": "2027-07-22T03:00:00"
+   },
+   "suspendedStops": [
+    2193
+   ],
+   "reason": "Parada suprimida por trabajos en centro comercial Tres Cruces. Parada en Av. Italia esq. Bv. Artigas.",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-3037",
+   "validity": {
+    "start": "2024-02-01T07:31:00",
+    "end": "2035-01-01T07:30:00"
+   },
+   "suspendedStops": [
+    3037
+   ],
+   "reason": "FUNCIONA SOLO EN DIAS y HORARIOS DE ESCUELA",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "wfs-3301",
+   "validity": {
+    "start": "2026-07-24T09:00:00",
+    "end": "2026-10-30T00:00:00"
+   },
+   "suspendedStops": [
+    3301
+   ],
+   "reason": "Desvío por obra",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-3302",
+   "validity": {
+    "start": "2026-07-24T09:00:00",
+    "end": "2026-10-30T00:00:00"
+   },
+   "suspendedStops": [
+    3302
+   ],
+   "reason": "Desvío por obra",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-3357",
+   "validity": {
+    "start": "2025-03-12T08:00:00"
+   },
+   "suspendedStops": [
+    3357
+   ],
+   "reason": "ÚNICAMENTE PARA LOS USUARIOS DE LA LÍNEA 181 26 de Marzo, M. Barreiro, Rambla.",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-4003",
+   "validity": {
+    "start": "2024-12-06T11:00:00",
+    "end": "2026-12-30T11:00:00"
+   },
+   "suspendedStops": [
+    4003
+   ],
+   "reason": "Parada suspendida. Próxima parada en Rodó esq. Acevedo Díaz.",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  }
+ ]
+}
