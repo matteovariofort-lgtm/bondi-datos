@@ -1,0 +1,12 @@
+{
+ "formatoPaquete": 1,
+ "versionDatos": 20261001,
+ "huella": "d5a4d12f992ceecf373ec5e86fd816de5105933dd39ac88b85f482d178589a5f",
+ "formatoRaptor": 1,
+ "esquemaDb": 3,
+ "generado": "2026-10-22T02:42:23Z",
+ "tag": "datos-20261001-d5a4d12f992ceecf",
+ "bytes": 4625855,
+ "sha256": "b23439511a2769d17700193946689e4a706d9f9cd03db59583db5d87b35aa11e",
+ "url": "https://github.com/matteovariofort-lgtm/bondi-datos/releases/download/datos-20261001-d5a4d12f992ceecf/bondi-datos-20261001-d5a4d12f992ceecf.zip"
+}
