@@ -1,0 +1,13 @@
+{
+ "ultima": {
+  "versionCode": 10000,
+  "versionName": "1.0.0",
+  "novedades": {
+   "es": "Primera versión firmada de Bondi: paradas con arribos en vivo, líneas, Cómo llegar con costo y ocupación típica, viajes programados, modo viaje, desvíos y Mi tarjeta.",
+   "en": "First signed release of Bondi: stops with live arrivals, lines, directions with cost and typical crowding, scheduled trips, trip mode, detours and My card."
+  },
+  "url": "https://github.com/matteovariofort-lgtm/bondi-datos/releases/download/v1.0.0/bondi-v1.0.0.apk",
+  "sha256": "394b33af8e6d1608d200bba65639af81fda702198b894e42e028862bf94da413",
+  "fecha": "2026-11-07"
+ }
+}
