@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-10-12T17:27:12",
+ "generatedAt": "2026-11-09T19:31:27",
  "detours": [
   {
    "id": "wfs-2193",
@@ -12,45 +12,6 @@
     2193
    ],
    "reason": "Parada suprimida por trabajos en centro comercial Tres Cruces. Parada en Av. Italia esq. Bv. Artigas.",
-   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
-   "confidence": "confirmed"
-  },
-  {
-   "id": "wfs-3037",
-   "validity": {
-    "start": "2024-02-01T07:31:00",
-    "end": "2035-01-01T07:30:00"
-   },
-   "suspendedStops": [
-    3037
-   ],
-   "reason": "FUNCIONA SOLO EN DIAS y HORARIOS DE ESCUELA",
-   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
-   "confidence": "unconfirmed"
-  },
-  {
-   "id": "wfs-3301",
-   "validity": {
-    "start": "2026-07-24T09:00:00",
-    "end": "2026-10-30T00:00:00"
-   },
-   "suspendedStops": [
-    3301
-   ],
-   "reason": "Desvío por obra",
-   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
-   "confidence": "confirmed"
-  },
-  {
-   "id": "wfs-3302",
-   "validity": {
-    "start": "2026-07-24T09:00:00",
-    "end": "2026-10-30T00:00:00"
-   },
-   "suspendedStops": [
-    3302
-   ],
-   "reason": "Desvío por obra",
    "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
    "confidence": "confirmed"
   },
@@ -78,6 +39,78 @@
    "reason": "Parada suspendida. Próxima parada en Rodó esq. Acevedo Díaz.",
    "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
    "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-6766",
+   "validity": {
+    "start": "2026-10-29T00:01:00",
+    "end": "2027-02-28T23:59:00"
+   },
+   "suspendedStops": [
+    6766
+   ],
+   "reason": "Vialidad calle Pittamiglio, L46 continua por Tte Rinaldi",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-6767",
+   "validity": {
+    "start": "2026-10-29T00:01:00",
+    "end": "2027-02-28T23:59:00"
+   },
+   "suspendedStops": [
+    6767
+   ],
+   "reason": "Vialida calle Pittamiglio, L36 continua por Tte Rinaldi",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-6768",
+   "validity": {
+    "start": "2026-10-29T00:01:00",
+    "end": "2027-02-28T23:59:00"
+   },
+   "suspendedStops": [
+    6768
+   ],
+   "reason": "Vialidad calle Pittamiglio, L46 continua por Tte Rinaldi",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "wfs-6769",
+   "validity": {
+    "start": "2026-10-29T00:00:00",
+    "end": "2027-02-28T23:59:00"
+   },
+   "suspendedStops": [
+    6769
+   ],
+   "reason": "Vialidad calle Pittamiglio, L36 continua por Tte Rinaldi",
+   "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "im-99147",
+   "lines": [
+    "169",
+    "110",
+    "300",
+    "192",
+    "505",
+    "456",
+    "L2",
+    "L22"
+   ],
+   "validity": {
+    "start": "2026-11-09T00:00:00",
+    "end": "2026-11-14T00:00:00"
+   },
+   "reason": "Reparación vial de Av. Belloni entre José María Buyo y camino Repetto",
+   "source": "https://montevideo.gub.uy/noticias/reparacion-vial-de-av-belloni-entre-jose-maria-buyo-y-camino-repetto",
+   "confidence": "unconfirmed"
   }
  ]
 }
