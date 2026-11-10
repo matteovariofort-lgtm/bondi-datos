@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-09T19:31:27",
+ "generatedAt": "2026-11-10T14:08:45",
  "detours": [
   {
    "id": "wfs-2193",
@@ -110,6 +110,21 @@
    },
    "reason": "Reparación vial de Av. Belloni entre José María Buyo y camino Repetto",
    "source": "https://montevideo.gub.uy/noticias/reparacion-vial-de-av-belloni-entre-jose-maria-buyo-y-camino-repetto",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "im-99150",
+   "lines": [
+    "116",
+    "145",
+    "582"
+   ],
+   "validity": {
+    "start": "2026-11-13T00:00:00",
+    "end": "2026-11-20T00:00:00"
+   },
+   "reason": "La Noche de las Librerías llenará Montevideo de actividades",
+   "source": "https://montevideo.gub.uy/noticias/la-noche-de-las-librerias-llenara-montevideo-de-actividades",
    "confidence": "unconfirmed"
   }
  ]
