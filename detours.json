@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-10T14:08:45",
+ "generatedAt": "2026-11-12T17:06:24",
  "detours": [
   {
    "id": "wfs-2193",
@@ -125,6 +125,22 @@
    },
    "reason": "La Noche de las Librerías llenará Montevideo de actividades",
    "source": "https://montevideo.gub.uy/noticias/la-noche-de-las-librerias-llenara-montevideo-de-actividades",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "im-99180",
+   "lines": [
+    "181",
+    "185",
+    "186",
+    "104"
+   ],
+   "validity": {
+    "start": "2026-11-12T00:00:00",
+    "end": "2026-11-19T00:00:00"
+   },
+   "reason": "Cambios en la movilidad por la San Felipe y Santiago",
+   "source": "https://montevideo.gub.uy/noticias/cambios-en-la-movilidad-por-la-san-felipe-y-santiago",
    "confidence": "unconfirmed"
   }
  ]
