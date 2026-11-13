@@ -1,13 +1,13 @@
 {
  "ultima": {
-  "versionCode": 10000,
-  "versionName": "1.0.0",
+  "versionCode": 1000001,
+  "versionName": "1.0.0a",
   "novedades": {
-   "es": "Primera versión firmada de Bondi: paradas con arribos en vivo, líneas, Cómo llegar con costo y ocupación típica, viajes programados, modo viaje, desvíos y Mi tarjeta.",
-   "en": "First signed release of Bondi: stops with live arrivals, lines, directions with cost and typical crowding, scheduled trips, trip mode, detours and My card."
+   "es": "Mapa más claro: las paradas se ven una por una y, al alejar, los nombres de los barrios; tu ubicación resalta en azul. En cada parada aparece primero lo que llega en la próxima hora. Además, arreglos en los arribos, en «Avisame» y en la actualización de la app.",
+   "en": "A clearer map: stops show one by one and, zoomed out, neighbourhood names; your location stands out in blue. Each stop now shows what arrives in the next hour first. Plus fixes to arrivals, “Notify me” and in-app updates."
   },
-  "url": "https://github.com/matteovariofort-lgtm/bondi-datos/releases/download/v1.0.0/bondi-v1.0.0.apk",
-  "sha256": "394b33af8e6d1608d200bba65639af81fda702198b894e42e028862bf94da413",
-  "fecha": "2026-11-07"
+  "url": "https://github.com/matteovariofort-lgtm/bondi-datos/releases/download/v1.0.0a/bondi-v1.0.0a.apk",
+  "sha256": "809e95d40eb95e5d70231dccc53d5fae2b658084cec242320b8e6ed2fc954d97",
+  "fecha": "2026-11-13"
  }
 }
