@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-12T17:06:24",
+ "generatedAt": "2026-11-14T15:16:44",
  "detours": [
   {
    "id": "wfs-2193",
@@ -91,26 +91,6 @@
    "reason": "Vialidad calle Pittamiglio, L36 continua por Tte Rinaldi",
    "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
    "confidence": "confirmed"
-  },
-  {
-   "id": "im-99147",
-   "lines": [
-    "169",
-    "110",
-    "300",
-    "192",
-    "505",
-    "456",
-    "L2",
-    "L22"
-   ],
-   "validity": {
-    "start": "2026-11-09T00:00:00",
-    "end": "2026-11-14T00:00:00"
-   },
-   "reason": "Reparación vial de Av. Belloni entre José María Buyo y camino Repetto",
-   "source": "https://montevideo.gub.uy/noticias/reparacion-vial-de-av-belloni-entre-jose-maria-buyo-y-camino-repetto",
-   "confidence": "unconfirmed"
   },
   {
    "id": "im-99150",
