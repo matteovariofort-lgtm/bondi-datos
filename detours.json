@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-19T17:47:52",
+ "generatedAt": "2026-11-20T08:54:16",
  "detours": [
   {
    "id": "wfs-2193",
@@ -91,21 +91,6 @@
    "reason": "Vialidad calle Pittamiglio, L36 continua por Tte Rinaldi",
    "source": "https://geoserver.montevideo.gub.uy/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=imm:v_uptu_ubic_paradas_con_horarios_deshabilitadas&outputFormat=application/json",
    "confidence": "confirmed"
-  },
-  {
-   "id": "im-99150",
-   "lines": [
-    "116",
-    "145",
-    "582"
-   ],
-   "validity": {
-    "start": "2026-11-13T00:00:00",
-    "end": "2026-11-20T00:00:00"
-   },
-   "reason": "La Noche de las Librerías llenará Montevideo de actividades",
-   "source": "https://montevideo.gub.uy/noticias/la-noche-de-las-librerias-llenara-montevideo-de-actividades",
-   "confidence": "unconfirmed"
   }
  ]
 }
